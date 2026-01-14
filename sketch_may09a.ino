@@ -53,7 +53,7 @@ void serveHomePage() {
   html += "body {background: black; color: white; text-align: center; font-family: Arial;}";
   html += "input, button {padding: 10px; margin: 5px; background-color: blue; color: white; border: none; border-radius: 5px;}";
   html += "</style></head><body>";
-  html += "<h1>ESP8266 Multi-Chat</h1>";
+  html += "<h1>ESP8266 Multi-Chat Credit by Shoaeb</h1>";
   html += "<p>Enter Room Number (1-5) and Password:</p>";
   html += "<form action='/login' method='POST'>";
   html += "<input type='number' name='room' min='1' max='5' required><br>";
@@ -124,3 +124,4 @@ void loop() {
     webSockets[i].loop();
   }
 }
+
